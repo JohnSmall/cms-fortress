@@ -66,6 +66,7 @@ GEM
       rails-i18n (~> 4.0.0)
       sass-rails (>= 4.0.3)
       tinymce-rails (>= 4.0.0)
+    concurrent-ruby (1.1.10)
     delayed_job (4.0.1)
       activesupport (>= 3.0, < 4.2)
     descendants_tracker (0.0.4)
@@ -100,7 +101,8 @@ GEM
     hashie (2.1.1)
     highline (1.6.21)
     hike (1.2.3)
-    i18n (0.6.9)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jeweler (2.0.1)
       builder
       bundler (>= 1.0)
