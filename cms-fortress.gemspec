@@ -139,7 +139,7 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rails>, [">= 4.0.0"])
       s.add_runtime_dependency(%q<comfortable_mexican_sofa>, ["~> 1.12.0"])
-      s.add_runtime_dependency(%q<devise>, ["~> 3.2"])
+      s.add_runtime_dependency(%q<devise>, ">= 3.2", "< 5.0")
       s.add_runtime_dependency(%q<cancan>, [">= 1.6.9"])
       s.add_runtime_dependency(%q<delayed_job>, ["~> 4"])
       s.add_runtime_dependency(%q<tinymce-rails>, ["~> 4.0.0"])
@@ -151,7 +151,7 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<rails>, [">= 4.0.0"])
       s.add_dependency(%q<comfortable_mexican_sofa>, ["~> 1.12.0"])
-      s.add_dependency(%q<devise>, ["~> 3.2"])
+      s.add_dependency(%q<devise>, ">= 3.2", "< 5.0")
       s.add_dependency(%q<cancan>, [">= 1.6.9"])
       s.add_dependency(%q<delayed_job>, ["~> 4"])
       s.add_dependency(%q<tinymce-rails>, ["~> 4.0.0"])
@@ -164,7 +164,7 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<rails>, [">= 4.0.0"])
     s.add_dependency(%q<comfortable_mexican_sofa>, ["~> 1.12.0"])
-    s.add_dependency(%q<devise>, ["~> 3.2"])
+    s.add_dependency(%q<devise>, ">= 3.2", "< 5.0")
     s.add_dependency(%q<cancan>, [">= 1.6.9"])
     s.add_dependency(%q<delayed_job>, ["~> 4"])
     s.add_dependency(%q<tinymce-rails>, ["~> 4.0.0"])
